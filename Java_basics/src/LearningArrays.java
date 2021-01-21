@@ -17,15 +17,11 @@ public class LearningArrays {
         wordsWithDefinedLength[1] = "World";
 
         // testing for loop for concatenation:
-        String sentence = ""; // Had to initialize this with a value to run.
+        StringBuilder sentence = new StringBuilder();
         for (int i = 0; i < wordsWithDefinedLength.length; i++) {
-            sentence += wordsWithDefinedLength[i] + " ";
+            sentence.append(wordsWithDefinedLength[i] + " ");
         }
         System.out.println(sentence);
-
-        // StringBuilder warning?
-        // Not understanding StringBuilder, link for reference:
-        // https://docs.oracle.com/javase/tutorial/java/data/buffers.html
-
+        // StringBuilder supposedly more efficient when used with forLoops?
     }
 }
