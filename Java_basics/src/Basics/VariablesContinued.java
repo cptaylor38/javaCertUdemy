@@ -1,3 +1,5 @@
+package Basics;
+
 public class VariablesContinued {
     public static void main(String[] args) {
         int var = 1000000000; // Maximum length for int data type.
